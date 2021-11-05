@@ -113,7 +113,6 @@ char **ft_split_with_quotes(char *s, char c)
 			i++;
 		}
 		if (s[i] == c && (insgl %2 == 0) && (indbl % 2 == 0))
-			// printf("No quotes");
 			ft_substring(s, 0, i);
 		else
 			printf("%c", s[i]);
